@@ -33,6 +33,10 @@ $ pip install openai
 
 $ git clone {url}
 
+Note:
+Update the Openai api in a config.py ( OPENAI_KEY = '{your Openai api}') file with
+your Openai api.
+
 ------------Run------------
 
 #Execute
@@ -42,14 +46,6 @@ flask --app ada run
 #For debugging
 
 $ flask --app ada run --debug
-
-------------Testing------------
-
-
-
-
-
-
 
 
 ------------Examples of API calls and Responses------------
