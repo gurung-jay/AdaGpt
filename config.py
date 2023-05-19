@@ -5,7 +5,7 @@ class Config(object):
 
 class ApiConfig(Config):
     SECRET_KEY = "secretkey"
-    OPENAI_KEY = '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'
+    OPENAI_KEY = '{your Openai api}'
 
 config = {
     'development': ApiConfig,
